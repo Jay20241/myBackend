@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-    res.send('hiteshdotcom')
+    res.send('hello backend')
 })
 
 app.get('/login', (req, res) => {
